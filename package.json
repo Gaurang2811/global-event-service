@@ -1,0 +1,28 @@
+{
+  "name": "global-event-service",
+  "version": "1.0.1",
+  "description": "A global event handler service.",
+  "keywords": [
+    "global",
+    "event",
+    "handler",
+    "service",
+    "angular"
+  ],
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "packagr": "ng-packagr -p ng-package.json"
+  },
+  "private": false,
+  "author": "Gaurang Omar",
+  "peerDependencies": {
+    "@angular/core": "^6.1.7",
+    "rxjs": "^6.3.2"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "^6.1.7",
+    "ng-packagr": "^4.1.1",
+    "typescript": "~2.7.2"
+  }
+}
